@@ -21,8 +21,29 @@ Recréer la carte **Altis** d’Arma 3 dans **Arma Reforger**, en convertissant 
 
 ### Défis identifiés
 - Gestion de formats propriétaires et de leurs limitations.
-- Différences techniques entre moteurs de jeu (géométrie, shaders, unités, collisions).
-- Nécessité d’un système flexible pour associer ou remplacer les assets manquants.
-- Garantir une conversion fidèle tout en respectant les contraintes du jeu cible.
+- Différences techniques entre moteurs de jeu.
+- Système flexible pour associer ou remplacer les assets absents.
+- Maintien de la cohérence visuelle et géographique après conversion.
+
+---
+
+## Projet 2 — **Learning by IA**
+
+### Concept
+Créer un modèle d’IA capable d’enseigner divers sujets de manière claire, accessible et ludique, en s’inspirant de pédagogies fluides et populaires.
+
+### Objectifs principaux
+- Entraîner un modèle sur des contenus pédagogiques structurés provenant de professeurs ou créateurs spécialisés.
+- Produire des cours détaillés, compréhensibles et adaptés à différents niveaux.
+- Proposer des exercices interactifs simples réalisables via un terminal émulé ou réel.
+
+### Fonctionnalités envisagées
+- Génération de cours progressifs et contextualisés.
+- Système d’évaluation intégré avec retours instantanés.
+- Exercices pratiques guidés pour favoriser l’autonomie.
+- Adaptation dynamique du niveau selon la progression de l’utilisateur.
+
+### Ambition
+Offrir une expérience d’apprentissage immersive et efficace, similaire à celle d’un professeur expérimenté et passionné.
 
 ---
