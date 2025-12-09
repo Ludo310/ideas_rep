@@ -1,37 +1,28 @@
-# Ideas Repository
-
-Liste structurée de mes idées de projets.
-
----
-
-## Projet 1 — **Arma Reforger : Remaster de la carte Altis (Arma 3)**
-
-### Description
-Rééditer la carte **Altis** d’Arma 3 pour la rendre compatible avec **Arma Reforger**.
-
-### Objectifs
-- Créer ou adapter un environnement de développement permettant la conversion des assets.
-- Remplacer les objets et éléments 3D d’Altis par leurs équivalents dans Arma Reforger.
-- Reconstituer la carte de manière fidèle afin de conserver l’apparence et l’atmosphère de l’originale.
-
-### Défis identifiés
-- Conversion massive d’assets (objets, bâtiments, végétation, etc.).
-- Adaptation aux nouveaux standards techniques d’Arma Reforger.
-- Maintien de la cohérence visuelle et géographique.
-
----
-
-## Projet 2 — **Learning by IA**
+## Projet 1 — **Game Map Converter IDE**
 
 ### Concept
-Créer un modèle d’IA capable d’enseigner des sujets de façon claire, ludique et facilement compréhensible, en s’inspirant du style pédagogique d’un professeur passionné ou de créateurs de contenu éducatif (ex. YvesRougyFR).
+Développer un **IDE complet** capable de convertir des cartes d’un jeu vers un autre, même si les formats, les moteurs ou les assets diffèrent.
 
-### Objectifs
-- Entraîner un modèle avec des cours de professeurs pour produire un enseignement structuré et naturel.
-- Proposer des explications fluides, accessibles et pédagogiques.
-- Offrir des exercices simples et interactifs réalisables en autonomie, via un terminal émulé ou réel.
+### Objectif principal
+Créer un outil permettant de **reproduire automatiquement ou semi-automatiquement** une carte existante dans un autre jeu, en remplaçant les objets d’origine par leurs équivalents ou par des assets personnalisés.
 
-### Ambition
-Fournir une expérience d’apprentissage proche d’un cours donné par un professeur compétent et dévoué, accessible à tout moment.
+### Fonctionnalités envisagées
+- Importation de cartes depuis différents jeux (formats propriétaires ou ouverts).
+- Analyse et extraction des données de la map :
+  - Topographie  
+  - Objets, bâtiments, végétation  
+  - Textures et matériaux
+- Système de correspondance (« mapping ») entre les assets du jeu source et ceux du jeu cible.
+- Interface visuelle pour vérifier, corriger et ajuster les éléments convertis.
+- Exportation vers le format natif du jeu cible.
+
+### Exemple d’application
+Recréer la carte **Altis** d’Arma 3 dans **Arma Reforger**, en convertissant automatiquement les structures, terrains et objets vers leurs équivalents dans Reforger.
+
+### Défis identifiés
+- Gestion de formats propriétaires et de leurs limitations.
+- Différences techniques entre moteurs de jeu (géométrie, shaders, unités, collisions).
+- Nécessité d’un système flexible pour associer ou remplacer les assets manquants.
+- Garantir une conversion fidèle tout en respectant les contraintes du jeu cible.
 
 ---
